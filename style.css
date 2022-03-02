@@ -1,0 +1,553 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/************ Navbar section start ************/
+.all-menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.all-menu img{
+    height: 45px; 
+    width: auto;
+}
+.all-menu .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+}
+.menu a{
+    margin-right: 15px;
+    transform: .5s;
+}
+
+.menu li a:hover{
+    color: #6278df !important;
+}
+
+.all-menu ul li ul{
+    padding: 0;
+    border: none;
+}
+
+.all-menu ul li ul li{
+    z-index: 8;
+}
+
+.all-menu ul li ul li a{
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    z-index: 7;
+}
+
+
+.all-menu .btn{
+    color:#6278df ;
+    border: 2px solid #6278df;
+    padding: 8px 30px;
+    box-shadow: none;
+    border-radius: 5px;
+}
+.all-menu .btn:hover{
+    color: white;
+    background-color:#6278df ;
+    box-shadow:4px 4px 20px 0 rgba(98, 120, 223,.7) ;
+}
+
+/*********** Navbar section end ***********/
+
+/*********** Banner section start ***********/
+
+.banner{
+    background: url(./day\ 31\ photo/mbr-10.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 160px 0;
+    position: relative;
+    z-index: 1;
+    margin-top: 72px;
+}
+.banner::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+
+}
+.banner-caption h4{
+    font-size:25px;
+    font-weight: 400;
+}
+.banner-caption h1{
+    margin: 40px 0;
+    font-size: 45px;
+    font-weight: 500;
+}
+.banner-caption .form-control{
+    padding: 17px 20px;
+    border: 1px solid#5ba533;
+    outline: none;
+}
+.banner-caption .form-control:focus{
+    border: 1px solid #6278df;
+    box-shadow:4px 4px 20px 0 rgba(98, 120, 223,.6);
+}
+.banner-caption .btn{
+    color: white;
+    background-color: #5ba533;
+    border: 2px solid#5ba533;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 13px 0px;
+    box-shadow: none;
+}
+.banner-caption .btn:hover{
+    color: #6278df;
+    background-color: white;
+    border:2px solid #6278df ;
+    box-shadow: 4px 4px 20px 0 rgba(98, 120, 223,.6) ;
+}
+
+/*********** Banner section end ************/
+
+/*********** Caunter section start ***********/
+
+.number-caunter{
+    padding: 70px 0;
+}
+.number-caunter-item h1{
+    font-size: 55px;
+}
+.number-caunter-item p{
+    font-size: 21px;
+}
+
+/************ Caunter section end ***********/
+
+/*********** Activity section start ***********/
+
+.activity{
+    background-color: #f7f9ff;
+    padding: 65px 0;
+}
+.activity-left{
+    margin-top: 100px;
+}
+.activity-left h1{
+    font-size: 43px;
+}
+.activity-left p{
+    font-size: 20px;
+    line-height: 33px;
+}
+
+/*********** Activity section end ***********/
+
+.about{
+    margin: 75px 0;
+}
+
+.about-text h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+.about-text p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 65px;
+}
+.about-item{
+    box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.075);
+    margin-bottom: 30px;
+}
+.about-img {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px ;
+}
+.about-item-text{
+    width: 60%;
+    margin: 47px 15px 0 15px;
+}
+.about-item-text h5{
+    font-size: 21px;
+}
+.about-item-text p{
+    line-height: 25px;
+}
+.about-img img{
+    height: 280px;
+    width: auto;
+    max-width:inherit ;
+    position:relative ;
+    left: -80px;
+}
+
+/*********** About section end ***********/
+
+/*********** Application section start ***********/
+
+.application{
+    margin: 50px 0;
+
+}
+.application-header h1{
+    font-size: 42px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.application-item{
+    position: relative;
+    margin-bottom: 30px;
+}
+.application-item::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.application-item:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/*********** Application section end ***********/
+
+/********** PRICING SECTION START **********/
+
+.pricing{
+    background-color: #f7f9ff;
+    padding: 70px 0;
+}
+
+.pricing h1{
+    font-size: 52px;
+}
+
+.pricing p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 65px;
+    color: #767676;
+}
+
+.pricing-item{
+    background-color: #fff;
+    width: 80%;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+
+.pricing-item h2{
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+
+.pricing-item p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.pricing-item ul{
+    padding: 0;
+}
+
+.pricing-item ul li{
+    list-style: none;
+    font-size: 22px;
+    color: #767676;
+    margin-bottom: 24px;
+    font-weight: 300;
+}
+
+.pricing-item ul li i{
+    font-size: 26px;
+    color: #798ce4;
+    margin-right: 16px;
+}
+
+.p-button{
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    color: #6278df;
+    font-size: 22px;
+    font-weight: 600;
+    width: 100%;
+    padding: 12px 0;
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.pricing-item:hover .p-button{
+    background-color: #6278df;
+    color: #fff;
+}
+
+.p-button:hover{
+    background-color: #000 !important;
+}
+
+.p-b{
+    margin: 17px 0 0 0;
+}
+
+/********** PRICING SECTION END **********/
+
+/********** FEEDBACK SECTION START **********/
+
+.feedback{
+
+}
+
+.feedback p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.feedback h1{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.feedback span i{
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.075);
+}
+
+p.f-text{
+    font-size: 22px;
+    padding: 0 160px;
+}
+
+.feedback img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+p.user{
+    font-size: 17px;
+}
+
+
+/********** FEEDBACK SECTION END **********/
+
+/********** TEAM SECTION START **********/
+
+.team{
+    background-color: #f7f9ff;
+}
+
+.team h1{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.team p{
+    font-size: 25px;
+    font-weight: 300;
+    color: #767676;
+
+}
+
+.team-member{
+    background-color: #fff;
+    padding: 90px 25px 35px 25px;
+    position: relative;
+    margin-top: 100px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+
+.team-img {
+    position: absolute;
+    top: -65px;
+    left: 12px;
+}
+
+.team-img img{
+    width: 120px;
+    border-radius: 50%;
+}
+
+.team-text h5{
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.team-text h5 span{
+    font-weight: normal;
+}
+
+.team-text p{
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.team-text button{
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    transition: .5s;
+    font-weight: 500;
+}
+
+.team-text button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/********** TEAM SECTION END **********/
+
+/********* CONTACT SECTION START **********/
+
+
+.contact h1{
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact p{
+    font-size: 25px;
+    font-weight: 300;
+    color: #767676;
+    text-align: center;
+}
+
+.contact-form{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.089);
+    border-radius: 10px;
+}
+
+.contact-form textarea,
+.contact-form input{
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.contact-form textarea:focus,
+.contact-form input:focus{
+    border: 1px solid #6278df;
+    box-shadow:4px 4px 20px 0 rgba(98, 120, 223,.6);
+}
+
+.contact-form button{
+    color: white;
+    background-color: #6278df;
+    border: 2px solid#6278df;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px 25px;
+    box-shadow: none;
+    margin-top: 15px;
+}
+.contact-form button:hover{
+    color: #6278df;
+    background-color: white;
+    border:2px solid #6278df ;
+    box-shadow: 4px 4px 20px 0 rgba(98, 120, 223,.6) ;
+}
+
+/********** CONTACT SECTION END **********/
+
+/********* APP SECTION START **********/
+
+
+.app h1{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 65px;
+}
+
+.app p{
+    font-size: 25px;
+    font-weight: 300;
+    color: #767676;
+}
+
+.app a{
+    color: white;
+    background-color: #5ba533;
+    border: 2px solid#5ba533;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px 25px;
+    box-shadow: none;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+}
+.app a:hover{
+    color: #fff;
+    background-color: #000;
+    border:2px solid #000 ;
+    box-shadow: none;
+}
+
+a.app-button1{
+    color: #5ba533;
+    background-color: #fff;
+    border: 2px solid#5ba533;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px 32px;
+    box-shadow: none;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+}
+a.app-button1:hover{
+    color: #fff;
+    background-color: #5ba533;
+    border:2px solid #5ba533;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+}
+
+.app-img{
+    margin: auto;
+    margin: 60px 0;
+}
+
+.app-img img{
+    width: 580px;
+}
+
+/********* APP SECTION END **********/
+
+/********* FOOTER SECTION START **********/
+
+footer{
+    text-align: center;
+    background-color: #f7f9ff;
+}
+
+footer p{
+    font-size: 21px;
+    margin: 0;
+    padding: 30px 0;
+}
+
+
+/********* FOOTER SECTION END **********/
+
+
+
