@@ -1,0 +1,359 @@
+
+
+/* ======================= 1400 -> START ======================= */
+
+@media (max-width:1400px){
+
+    .container {
+        max-width: 1400px;
+    }
+    
+}
+
+/* ======================= 1400 -> END ========================= */
+
+
+
+
+/* ======================= 1200 -> START ======================= */
+
+@media (max-width:1200px){
+    
+    .pricing-item h2 {
+        font-size: 45px;
+    }
+
+}
+
+/* ======================= 1200 -> END ========================= */
+
+
+
+
+/* ======================= 992 -> START ======================= */
+
+@media (max-width:992px){
+    
+    /********* BANNER SECTION START ***********/
+
+    .banner-caption h4 {
+        font-size: 20px;
+    }
+
+    .banner-caption h1 {
+        margin: 24px 0;
+        font-size: 30px;
+    }
+
+    .banner-caption .form-control {
+        padding: 10px 18px;
+        font-size: 16px;
+    }
+
+    .banner-caption .btn {
+        font-size: 17px;
+        padding: 8px 0px;
+    }
+
+    .banner {
+        padding: 100px 0;
+    }
+    
+    /********* BANNER SECTION END ***********/
+
+    /********* ABOUT SECTION START ***********/
+    
+    .about-text h2 {
+        font-size: 40px;
+    }
+    
+    /********* ABOUT SECTION END ***********/
+
+    
+
+    /********* PRICING SECTION START ***********/
+
+    .pricing h1 {
+        font-size: 43px;
+    }
+
+    .pricing p {
+        font-size: 18px;
+        margin-bottom: 34px;
+    }
+
+    .pricing-item h2 {
+        font-size: 37px;
+        margin-bottom: 18px;
+    }
+    
+    .pricing-item ul li {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    /********* PRICING SECTION END ***********/
+
+    /********* FEEDBACK SECTION START ***********/
+    
+    .feedback h1 {
+        font-size: 35px;
+    }
+    
+    /********* FEEDBACK SECTION END ***********/
+
+
+
+}
+
+/* ======================= 992 -> END ========================= */
+
+
+
+
+
+/* ======================= 855 -> START ======================= */
+
+@media (max-width:855px){
+    
+    .pricing-item h2 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+
+}
+
+/* ======================= 855 -> END ========================= */
+
+
+
+
+
+/* ======================= 768 -> START ======================= */
+
+@media (max-width:768px){
+    
+    /********* BANNER SECTION START ***********/
+
+    .banner {
+        padding: 85px 0;
+    }
+
+    .banner-caption h4 {
+        font-size: 17px;
+    }
+
+    .banner-caption h1 {
+        margin: 18px 0;
+        font-size: 26px;
+    }
+    
+    /********* BANNER SECTION END ***********/
+
+    /********* ACTIVITY SECTION START ***********/
+
+    .activity-left h1 {
+        font-size: 35px;
+    }
+
+    .activity-left {
+        margin-top: 60px;
+    }
+
+    .activity {
+        padding: 30px 0;
+    }
+
+    /********* ACTIVITY SECTION END ***********/
+
+    /********* ABOUT SECTION START ***********/
+    
+    .about-text h2 {
+        font-size: 35px;
+    }
+
+    .about-text p {
+        font-size: 20px;
+        margin-bottom: 55px;
+    }
+    
+    /********* ABOUT SECTION END ***********/
+
+    /********* APPLICATION SECTION START ***********/
+    
+    .application-header h1 {
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+    
+    /********* APPLICATION SECTION END ***********/
+
+
+    /********* PRICING SECTION START ***********/
+
+    .pricing h1 {
+        font-size: 35px;
+    }
+
+    .pricing p {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    
+    .pricing-item h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .pricing-item {
+        padding: 30px;
+    }
+
+    .pricing-item ul li i {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .p-button {
+        font-size: 16px;
+        padding: 6px 0 ;
+        margin: 24px 0;
+    }
+
+    .pricing {
+        background-color: #f7f9ff;
+        padding: 50px 0;
+    }
+    
+    /********* PRICING SECTION END ***********/
+
+    /********* FEEDBACK SECTION START ***********/
+
+    .feedback p {
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+    
+    .feedback h1 {
+        font-size: 30px;
+    }
+
+    /********* FEEDBACK SECTION END ***********/
+    
+}
+
+/* ======================= 768 -> END ========================= */
+
+
+
+
+/* ======================= 576 -> START ======================= */
+
+@media (max-width:576px){
+    
+    /********* BANNER SECTION START ***********/
+
+    .banner .col-md-7.col-sm-7 {
+        margin-bottom: 15px;
+    }
+    
+    
+    /********* BANNER SECTION END ***********/
+    
+    /********* ACTIVITY SECTION START ***********/
+
+    .activity-left h1 {
+        font-size: 30px;
+    }
+
+    .activity-left {
+        margin-top: 40px;
+    }
+
+    .activity {
+        padding: 30px 0;
+    }
+
+    .activity-left p {
+        font-size: 16px;
+    }
+    
+    /********* ACTIVITY SECTION END ***********/
+
+    /********* ABOUT SECTION START ***********/
+    
+    .about-text h2 {
+        font-size: 27px;
+    }
+
+    .about-text p {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+
+    .about {
+        margin: 40px 0;
+    }
+    
+    /********* ABOUT SECTION END ***********/
+
+    /********* APPLICATION SECTION START ***********/
+    
+    .application-header h1 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    
+    /********* APPLICATION SECTION END ***********/
+
+    /********* PRICING SECTION START ***********/
+
+    .pricing h1 {
+        font-size: 35px;
+    }
+
+    .pricing p {
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+    
+    .pricing-item {
+        margin: 20px auto;
+    }
+    
+    /********* PRICING SECTION END ***********/
+
+}
+
+/* ======================= 576 -> END ========================= */
+
+
+
+
+/* ======================= 400 -> START ======================= */
+
+@media (max-width:400px){
+    
+    /********* BANNER SECTION START ***********/
+
+    
+    
+    /********* BANNER SECTION END ***********/
+
+    /********* PRICING SECTION START ***********/
+
+    .pricing h1 {
+        font-size: 30px;
+    }
+
+    .pricing p {
+        font-size: 16px;
+    }
+    
+    
+    /********* PRICING SECTION END ***********/
+
+}
+
+/* ======================= 400 -> END ========================= */
+
