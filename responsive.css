@@ -61,6 +61,14 @@
     
     /********* BANNER SECTION END ***********/
 
+    /********* ACTIVITY SECTION START ***********/
+
+    .activity .col-lg-4{
+        text-align: center;
+    }
+
+    /********* ACTIVITY SECTION END ***********/
+
     /********* ABOUT SECTION START ***********/
     
     .about-text h2 {
@@ -102,7 +110,28 @@
     
     /********* FEEDBACK SECTION END ***********/
 
+    
+    /********* TEAM SECTION START ***********/
 
+    .team p {
+        font-size: 20px;
+    }
+    
+    /********* TEAM SECTION END ***********/
+
+    /********* APP SECTION START ***********/
+
+    .app h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .app p {
+        font-size: 20px;
+        margin-bottom: 10px !important;
+    }
+
+    /********* APP SECTION END **********/
 
 }
 
@@ -233,12 +262,58 @@
         margin-bottom: 0px;
         font-size: 20px;
     }
+
+    p.f-text {
+        font-size: 20px;
+        padding: 0px 80px;
+    }
     
     .feedback h1 {
         font-size: 30px;
     }
 
+    .feedback span i {
+        font-size: 70px;
+    }
+
     /********* FEEDBACK SECTION END ***********/
+
+    /********* TEAM SECTION START ***********/
+
+    .team h1 {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+
+    /********* TEAM SECTION END ***********/
+
+    /********* CONTACT SECTION START ***********/
+
+    .contact-form textarea {
+        height: 100px;
+    }
+
+    .contact h1 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .contact p {
+        font-size: 20px;
+        margin-bottom:10px !important ;
+    }
+
+    /********* CONTACT SECTION END ***********/
+
+    /********* FOOTER SECTION START **********/
+
+    footer p {
+    font-size: 17px;
+    padding: 20px 0;
+    }
+
+    /********* FOOTER SECTION END **********/
+
     
 }
 
@@ -323,6 +398,94 @@
     
     /********* PRICING SECTION END ***********/
 
+    /********* FEEDBACK SECTION START ***********/
+
+    .feedback h1 {
+        font-size: 25px;
+    }
+
+    .feedback p {
+        font-size: 16px;
+    }
+
+    p.f-text {
+        font-size: 18px;
+        padding: 0px 40px;
+    }
+
+    .feedback .col-lg-6.col-md-6.col-sm-6 img {
+        margin-right: 40%;
+    }
+
+    .feedback .col-lg-6.col-md-6.col-sm-6 h5,
+    .feedback .col-lg-6.col-md-6.col-sm-6 p {
+        margin-left: 40%;
+    }
+
+    /********* FEEDBACK SECTION END ***********/
+
+     /********* TEAM SECTION START ***********/
+
+     .team h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .team p {
+        font-size: 17px;
+    }
+
+    /********* TEAM SECTION END ***********/
+
+    /********* CONTACT SECTION START ***********/
+
+    .contact-form .col-lg-6.col-md-6.col-sm-6:first-child{
+        margin-bottom: 20px;
+    }
+
+    .contact-form textarea, .contact-form input {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-form button {
+        font-size: 17px;
+        padding: 10px 25px;
+    }
+
+    .contact h1 {
+        font-size: 27px;
+        margin-bottom: 0;
+    }
+    
+    /********* CONTACT SECTION END ***********/
+
+    /********* APP SECTION START ***********/
+    
+    .app{
+        padding: 30px 0 0 0 !important;
+    }
+
+    .app a {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    .app p {
+        font-size: 18px;
+        margin-bottom: 5px !important;
+    }
+
+    .app h1 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    /********* APP SECTION END **********/
+
+    
+        
+
 }
 
 /* ======================= 576 -> END ========================= */
@@ -334,11 +497,13 @@
 
 @media (max-width:400px){
     
-    /********* BANNER SECTION START ***********/
+    /********* HEADER SECTION START ***********/
 
+    .all-menu .navbar-brand {
+        font-size: 22px;
+    }
     
-    
-    /********* BANNER SECTION END ***********/
+    /********* HEADER SECTION END ***********/
 
     /********* PRICING SECTION START ***********/
 
@@ -350,8 +515,25 @@
         font-size: 16px;
     }
     
-    
     /********* PRICING SECTION END ***********/
+
+    /********* FEEDBACK SECTION START ***********/
+
+    p.f-text {
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+
+    /********* FEEDBACK SECTION END ***********/
+
+    /********* APP SECTION START ***********/
+
+    a.app-button1 {
+        margin-right: 0px;
+    }
+
+    /********* APP SECTION END **********/
+     
 
 }
 
